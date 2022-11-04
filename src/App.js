@@ -36,3 +36,7 @@ class App extends Component {
 }
 
 export default App;
+
+//  + CategoryInfo          : SecurityError: (:) [], PSSecurityException
+//+ FullyQualifiedErrorId : UnauthorizedAccess
+//Solution: Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope Process
